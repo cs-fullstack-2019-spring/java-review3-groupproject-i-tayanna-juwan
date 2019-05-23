@@ -38,7 +38,7 @@
       <ObjectId>17170</ObjectId>
       <StateNumber>1329</StateNumber>
       <Owner>student</Owner>
-      <IntrospectionStateNumber>1332</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1334</IntrospectionStateNumber>
       <Visible>1</Visible>
     </database>
     <database id="9" parent="1" name="mini-project">
@@ -194,7 +194,7 @@ sequence|table|16515|16517|1
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1333</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1335</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>

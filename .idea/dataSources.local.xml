@@ -8,7 +8,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>student</user-name>
-      <introspection-schemas>@:@|group4:@</introspection-schemas>
+      <introspection-schemas>@:@|group4:@,public</introspection-schemas>
     </data-source>
   </component>
 </project>
