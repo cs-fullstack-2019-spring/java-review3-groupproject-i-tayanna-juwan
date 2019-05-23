@@ -7,7 +7,7 @@ public class Databaseconnection {
     private static String user = "student";
     private static String password = "C0d3Cr3w";
 
-    public  Connection connect() {
+    public static  Connection connect() {
         Connection connect = null;
         try{
 
