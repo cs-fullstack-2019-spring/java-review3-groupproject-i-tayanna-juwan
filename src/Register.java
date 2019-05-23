@@ -1,6 +1,7 @@
 import java.nio.channels.SelectableChannel;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class Register
 {
@@ -10,16 +11,17 @@ public class Register
     public  void checkname (String name)
     {
         String SQL= "Select username from userinfo where username =?";
-        Connection registerconn=Databaseconnection.connect();
-//        try(Connection conn=connect());
-//            PreparedStatement pstmnt = conn.prepareStatement(SQL))
-//        {
-//            System.out.println("Test");
-//        }
-//        catch(SQL Exception ex)
-//        {
-//            System.out.println(ex.getMessage());
-//        }
+
+        try
+        {
+            Databaseconnection.connect();
+            PreparedStatement pstmnt = Databaseconnection.connect().prepareStatement(SQL);
+            System.out.println("Test");
+        }
+        catch(SQLException ex)
+        {
+            System.out.println(ex.getMessage());
+        }
 
     }
 }
