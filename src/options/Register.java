@@ -1,5 +1,7 @@
-import java.nio.channels.SelectableChannel;
-import java.sql.Connection;
+package options;
+
+import options.Databaseconnection;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -27,7 +29,7 @@ public class Register
             {
 
                 pstmnt.setString(1,name);
-                pstmnt
+//                pstmnt
              System.out.println("This user can be used");
             }
         }
